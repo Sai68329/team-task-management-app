@@ -28,7 +28,9 @@ app.include_router(auth_router.router)
 app.add_middleware(
     CORSMiddleware,
 
-    allow_origins=["*"],
+    allow_origins=[
+        "https://team-task-management-app-beta.vercel.app/"
+    ],
 
     allow_credentials=True,
 
