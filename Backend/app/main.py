@@ -29,7 +29,7 @@ app.add_middleware(
     CORSMiddleware,
 
     allow_origins=[
-        "https://team-task-management-pzdty1ik7-sai68329s-projects.vercel.app/"
+        "https://team-task-management-app-beta.vercel.app"
     ],
 
     allow_credentials=True,
